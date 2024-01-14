@@ -19,7 +19,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
+.section-title{
   font-size: 3rem; 
   font-weight: 700; 
   color:#131313 ;
@@ -65,16 +65,13 @@ border: 0;
     margin-top: 20px;
     width: 100%;
 }
-@media screen and(max-width:576){
-    header{
-        padding:20px ;
-    }
-    nav{
+    nav 
+    .team-container{
         flex-direction: column;
     }
     main{
         max-width: 1440px0;
-        margin: 0 auto;
+        margin: 70PX auto;
 
     }
     .team-container{
@@ -108,13 +105,17 @@ font-size: 2.8 erm;
         font-weight:700 ;
         color:Dark 01 ;
     }
+    @media screen and (min-width:576) and (max-width:960PX) {
+        header{
+            padding:20PX ;
+
 }
 </style>
 </head>
-<body>
+<body
     <header>
         <nav>
-            <h3 class="nav-title">G3 Architects</h3>
+            <h3 class="section-title">G3 Architects</h3>
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
@@ -144,13 +145,16 @@ font-size: 2.8 erm;
             <div class="teams-content">
                 <h3 class="teams-title"><span class="uick-list">Quick list </span><span class="text-fix">of our</span> <span class="text-ri"> Features
                 </span></h3>
-                    <p class="teams-discription">
-           
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even
-                    </p>
+                    <p class="banner-discription">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even </p>
                     <button class="btn-primary">Expore More</button>
             </div>
         </section>
+        <Section class="Features">
+            </Section>
+            <Section class="facts">
+                <h3 class="section-title">Some Facts</h3>
+                <P class="banner-discription">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</P>
+                </Section>
 
     </main>
     <footer>

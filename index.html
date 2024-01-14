@@ -72,6 +72,42 @@ border: 0;
     nav{
         flex-direction: column;
     }
+    main{
+        max-width: 1440px0;
+        margin: 0 auto;
+
+    }
+    .team-container{
+        display: flex;
+        align-items: center;
+
+    }
+    .team-img-container{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        gap: 24px;
+    }
+    .teams-content{
+        padding-left:70px ;
+        padding-right: 70px;
+    }
+    .teams-title{
+font-size: 2.8 erm;
+    }
+    
+    .teams-title .uick-list{
+        font-weight: 600;
+        color: #727272;
+    }
+    .teams-title .text-fix{
+        font-weight: 700;
+        color: #FF900E;
+
+    }
+    .teams-title .text-ri{
+        font-weight:700 ;
+        color:Dark 01 ;
+    }
 }
 </style>
 </head>
@@ -98,7 +134,23 @@ border: 0;
         </div>
         </Header>
         <main>
-        
+        <section class="teams-container">
+            <div class="teams -img-container">
+                <img src="images/team1.png" alt="">
+                <img src="images/team2.png" alt="">
+                <img src="images/team3.png" alt="">
+                <img src="images/team4.png" alt="">
+            </div>
+            <div class="teams-content">
+                <h3 class="teams-title"><span class="uick-list">Quick list </span><span class="text-fix">of our</span> <span class="text-ri"> Features
+                </span></h3>
+                    <p class="teams-discription">
+           
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even
+                    </p>
+                    <button class="btn-primary">Expore More</button>
+            </div>
+        </section>
 
     </main>
     <footer>

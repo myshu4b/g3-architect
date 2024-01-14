@@ -4,15 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3 architects</title>
-   <link rel="stylesheet" href="styles/architect.css">
+  <style>
+     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;800&display=swap');
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+} 
+*{
+font-family: 'Work Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+  font-size: 3rem; 
+  font-weight: 700; 
+  color:#131313 ;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+   list-style: none;
+   margin-right: 30px;
+   font-weight: 500;
+   font-size: 2rem;
+}
+nav li a{
+text-decoration: none;
+color:#424242 ;
+}
+.banner-contain{
+    max-width: 800;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size:4rem ;
+    font-weight: 700;
+    color:#131313 ;
+}
+.banner-discription{
+    color:#727272;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    color: #fff;
+background: #FF900E;
+padding: 20px 25px;
+font-size:20px ;
+font-weight: 600;
+cursor: pointer;
+border: 0;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+@media screen and(max-width:576){
+    header{
+        padding:20px ;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+</style>
 </head>
 <body>
     <header>
-
-    </header>
-    <main>
         <nav>
-            <h3>G3 Architects</h3>
+            <h3 class="nav-title">G3 Architects</h3>
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
@@ -20,6 +86,18 @@
                 <li><a href="">login</a></li>
             </ul>
         </nav>
+        <div class="banner">
+            <div class="banner-contain">
+            <h1 class="banner-title">Brand New 
+                Group of Architects 
+                </h1>
+                <p class="banner-discription">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                <button class="btn-primary">Expore More more</button>
+                </div>
+                <img src="images/banner.png" alt="">
+        </div>
+        </Header>
+        <main>
         
 
     </main>
